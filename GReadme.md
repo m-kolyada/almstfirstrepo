@@ -1,0 +1,1 @@
+this program shows your email and username
