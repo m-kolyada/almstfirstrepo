@@ -6,11 +6,16 @@ function gitname ()
 
 }
 
-gitname
 
 function gitemail () 
 {
   echo "Your git email is: $(git config user.email)"
 }
 
-gitemail
+function both () 
+{
+  gitname
+  gitemail
+}
+
+both
