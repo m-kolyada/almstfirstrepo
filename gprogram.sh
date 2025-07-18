@@ -10,7 +10,7 @@ gitname
 
 function gitemail () 
 {
-  echo "Your git email is: (git config user.email)"
+  echo "Your git email is: $(git config user.email)"
 }
 
 gitemail
