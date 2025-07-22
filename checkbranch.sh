@@ -9,3 +9,4 @@ function check_branch() {
        echo "Branch '$branch_name' does not exist."
    fi
 }
+check_branch "$1"
